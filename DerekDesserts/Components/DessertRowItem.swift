@@ -1,6 +1,6 @@
 //
 //  DessertRowItem.swift
-//  DereksDesserts
+//  DerekDesserts
 //
 //  Created by Derek Howes on 6/19/24.
 //

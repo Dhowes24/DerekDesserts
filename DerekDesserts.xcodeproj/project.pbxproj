@@ -35,13 +35,6 @@
 			remoteGlobalIDString = 1E5C05022C24D23D003DF768;
 			remoteInfo = DerekDesserts;
 		};
-		1E5C051E2C24D240003DF768 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E5C04FB2C24D23D003DF768 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E5C05022C24D23D003DF768;
-			remoteInfo = DerekDesserts;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +44,6 @@
 		1E5C050D2C24D23F003DF768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E5C05132C24D240003DF768 /* DerekDessertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerekDessertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5C05172C24D240003DF768 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
-		1E5C051D2C24D240003DF768 /* DerekDessertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerekDessertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5C05312C24D2F7003DF768 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
 		1E5C05332C24D30F003DF768 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		1E5C05352C24D328003DF768 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -83,13 +75,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E5C051A2C24D240003DF768 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,7 +92,6 @@
 			children = (
 				1E5C05032C24D23D003DF768 /* DerekDesserts.app */,
 				1E5C05132C24D240003DF768 /* DerekDessertsTests.xctest */,
-				1E5C051D2C24D240003DF768 /* DerekDessertsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,24 +214,6 @@
 			productReference = 1E5C05132C24D240003DF768 /* DerekDessertsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1E5C051C2C24D240003DF768 /* DerekDessertsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E5C052D2C24D240003DF768 /* Build configuration list for PBXNativeTarget "DerekDessertsUITests" */;
-			buildPhases = (
-				1E5C05192C24D240003DF768 /* Sources */,
-				1E5C051A2C24D240003DF768 /* Frameworks */,
-				1E5C051B2C24D240003DF768 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E5C051F2C24D240003DF768 /* PBXTargetDependency */,
-			);
-			name = DerekDessertsUITests;
-			productName = DerekDessertsUITests;
-			productReference = 1E5C051D2C24D240003DF768 /* DerekDessertsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,10 +228,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					1E5C05122C24D240003DF768 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 1E5C05022C24D23D003DF768;
-					};
-					1E5C051C2C24D240003DF768 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 1E5C05022C24D23D003DF768;
 					};
@@ -286,7 +248,6 @@
 			targets = (
 				1E5C05022C24D23D003DF768 /* DerekDesserts */,
 				1E5C05122C24D240003DF768 /* DerekDessertsTests */,
-				1E5C051C2C24D240003DF768 /* DerekDessertsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,13 +263,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E5C05112C24D240003DF768 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E5C051B2C24D240003DF768 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,13 +302,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E5C05192C24D240003DF768 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -362,11 +309,6 @@
 			isa = PBXTargetDependency;
 			target = 1E5C05022C24D23D003DF768 /* DerekDesserts */;
 			targetProxy = 1E5C05142C24D240003DF768 /* PBXContainerItemProxy */;
-		};
-		1E5C051F2C24D240003DF768 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E5C05022C24D23D003DF768 /* DerekDesserts */;
-			targetProxy = 1E5C051E2C24D240003DF768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -588,42 +530,6 @@
 			};
 			name = Release;
 		};
-		1E5C052E2C24D240003DF768 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F96TJRTX3X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "derek-howes.DerekDessertsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DerekDesserts;
-			};
-			name = Debug;
-		};
-		1E5C052F2C24D240003DF768 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F96TJRTX3X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "derek-howes.DerekDessertsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DerekDesserts;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -650,15 +556,6 @@
 			buildConfigurations = (
 				1E5C052B2C24D240003DF768 /* Debug */,
 				1E5C052C2C24D240003DF768 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E5C052D2C24D240003DF768 /* Build configuration list for PBXNativeTarget "DerekDessertsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E5C052E2C24D240003DF768 /* Debug */,
-				1E5C052F2C24D240003DF768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
